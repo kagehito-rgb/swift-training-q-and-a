@@ -1,3 +1,5 @@
+// Q. Int型Rangeの配列をマージするメソッド。 by 会社の同期
+
 extension Array where Element == CountableClosedRange<Int> {
     /// Int型Rangeの配列をマージする。
     func merge() -> [CountableClosedRange<Int>] {
